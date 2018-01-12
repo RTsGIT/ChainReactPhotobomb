@@ -65,7 +65,8 @@ class HomeScreen extends Component {
   constructor(props) {
     super(props);
     this.subscription = null;
-    this.setHasSeenEULA();
+    //rpanidepu: setEULA back
+    // this.setHasSeenEULA();
   }
 
   setHasSeenEULA = async () => {
@@ -120,7 +121,7 @@ class HomeScreen extends Component {
   renderLoading() {
     return (
       <View style={{ alignItems: 'center' }}>
-        <Image source={Images.logo} style={styles.logo} />
+        <Image source={Images.logo} style={{height: 100}} resizeMode="contain"/>
         <Text style={styles.appName}>Photobomb!</Text>
       </View>
     );

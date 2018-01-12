@@ -17,9 +17,9 @@ const codePushOptions = {
 };
 
 const GRAPHQL_ENDPOINT =
-  'https://api.graph.cool/simple/v1/cj3g3v2hp18ag01621354vr2y';
+  'https://api.graph.cool/simple/v1/cjc5ce2l40dty0181o2u0u07n';
 const GRAPHQL_WEBSOCKET_ENDPOINT =
-  'wss://subscriptions.graph.cool/v1/cj3g3v2hp18ag01621354vr2y';
+  'wss://subscriptions.graph.cool/v1/cjc5ce2l40dty0181o2u0u07n';
 
 const networkInterface = createNetworkInterface({ uri: GRAPHQL_ENDPOINT });
 const wsClient = new SubscriptionClient(GRAPHQL_WEBSOCKET_ENDPOINT, {

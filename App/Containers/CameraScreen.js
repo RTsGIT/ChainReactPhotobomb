@@ -133,17 +133,21 @@ class CameraScreen extends Component {
           ref={i => (this.imageComponent = i)}
         >
           <Image style={styles.image} source={{ uri }}>
-            {this.renderPropImages()}
+            {
+              this.renderPropImages()
+            }
           </Image>
         </View>
 
-        <View style={styles.propContainer}>
-          <Text style={styles.addPropText}>
-            Add stickers to your image!
-          </Text>
+        {
+          // <View style={styles.propContainer}>
+          //   <Text style={styles.addPropText}>
+          //     Add stickers to your image!
+          //   </Text>
 
-          <PropPicker onPickProp={this.addPropToPicture} />
-        </View>
+          //   <PropPicker onPickProp={this.addPropToPicture} />
+          // </View>
+        }
 
         <View style={styles.uploadButtonContainer}>
           <Button onPress={this.uploadPicture}>

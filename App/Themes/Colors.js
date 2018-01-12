@@ -1,8 +1,9 @@
+
 const colors = {
-  purple: '#2f1843',
-  lightPurple: '#beb7c2',
-  brightPurple: '#691861',
-  darkPurple: '#20112e',
+  purple: '#00e676',
+  lightPurple: '#76d275',
+  brightPurple: '#76ff03',
+  darkPurple: '#087f23',
   red: '#e73536',
   white: '#ffffff',
   lightPurpleTransparent: 'rgba(190, 183, 194, 0.7)',

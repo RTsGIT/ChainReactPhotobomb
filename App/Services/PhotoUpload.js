@@ -1,6 +1,6 @@
 // TODO: react-native-config
 const FILE_UPLOAD_API =
-  'https://api.graph.cool/file/v1/cj3g3v2hp18ag01621354vr2y';
+  'https://api.graph.cool/file/v1/cjc5ce2l40dty0181o2u0u07n';
 
 export default async function(photo) {
   const pictureData = {
